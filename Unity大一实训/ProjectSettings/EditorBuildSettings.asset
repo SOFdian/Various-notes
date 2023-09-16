@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/ZKH/Player.unity
+    guid: 24583cddf728fdd489eb9a5d08cc7fdc
+  - enabled: 0
+    path: "Assets/\u5173\u53611/First Level.unity"
+    guid: 589b4551d7b26d44ebfa1d0c34b83fbd
+  - enabled: 1
+    path: "Assets/\u5173\u53611/FirstMenu.unity"
+    guid: 978821f31ec7a8249b099c0a73053e78
+  - enabled: 1
+    path: "Assets/\u5173\u53611/aaa.unity"
+    guid: 5b04cf668a51d1442b9b96f26ba452ef
+  - enabled: 1
+    path: "Assets/\u5173\u53612/Second Level.unity"
+    guid: 0c78df8450b5a8f4591b71b7af47902f
+  - enabled: 1
+    path: "Assets/\u5173\u53613/Third Level.unity"
+    guid: 37386945cb2fb2b4c969ecca8589a8c9
+  m_configObjects: {}

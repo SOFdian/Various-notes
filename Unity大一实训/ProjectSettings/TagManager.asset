@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Food
+  - Climbable
+  - HitBox
+  - Box
+  - Bucket
+  - Door
+  - Trap
+  - Platform
+  - ExplosionRange
+  - Enemy
+  - DashHitBox
+  - BossHitBox
+  - Boss
+  - Poison
+  - Confiner
+  - Data
+  - NPC
+  - endNPC
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - BlockingLayer
+  - Water
+  - UI
+  - Ground
+  - Obstacle
+  - 
+  - Room
+  - Player
+  - Enemy
+  - EnemyHitBox
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Groud
+    uniqueID: 2567116889
+    locked: 0
+  - name: Door
+    uniqueID: 1054449655
+    locked: 0
+  - name: Item
+    uniqueID: 724832833
+    locked: 0
+  - name: Player
+    uniqueID: 2313294103
+    locked: 0
+  - name: blood
+    uniqueID: 2864096229
+    locked: 0

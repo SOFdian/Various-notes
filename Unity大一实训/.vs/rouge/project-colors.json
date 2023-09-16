@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a6c9ea04-4397-7d09-fbc4-f7a34a4759a3": {
+      "ProjectGuid": "a6c9ea04-4397-7d09-fbc4-f7a34a4759a3",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "00e7ef08-a8e0-4b48-4996-af0e47af5ea0": {
+      "ProjectGuid": "00e7ef08-a8e0-4b48-4996-af0e47af5ea0",
+      "DisplayName": "AstarPathfindingProject",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
