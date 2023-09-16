@@ -1,0 +1,19 @@
+git init 在当前目录新建git代码库
+git remote show origin 查看当前仓库地址
+git remote add origin xxx 新增远程仓库
+git add （文件名）添加到暂存区
+git commit -m "注释" 将暂存区提交到仓库
+git add .   向暂存区添加所有修改过的文件
+git reset HEAd  移除暂存区的全部文件
+git push 推送本地分支到仓库
+git pull 拉取当前分支的最新代码
+git checkout branchName 切换分支
+git push origin master -f  强制覆盖远程仓库
+git clone -b dev 代码仓库地址   拉取某分支到本地
+443时尝试一下命令：
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+也可以看一下这个教程：
+https://zhuanlan.zhihu.com/p/636418854
+github上有个无法点击的灰色文件夹（仓库中的文件夹中含有.git时会出现这种情况）：
+https://blog.csdn.net/lsj1342/article/details/89472569
