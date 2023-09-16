@@ -1,0 +1,90 @@
+        html,
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            background-image: url(background.png);
+            background-size: cover;
+        }
+
+        .main {
+            height: 97%;
+            width: 99%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .main .picture {
+            text-decoration: none;
+            margin: 0.3vh;
+            /*视宽0.3，窗口大小变化时不会奇怪*/
+            width: 20%;
+            height: 100%;
+            border-radius: 10px;
+            background-size: cover;
+            transition: 0.7s;
+            box-shadow: 0px 3px 3px 0px rgb(0, 0, 0);
+            font-size: 60px;
+            font-family: cursive;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            writing-mode: vertical-lr;/*文字竖排*/
+            position: relative;/*没懂这两个position为什么要设置成这两个，但是不这样的话文字会崩*/
+            color: rgba(255, 255 ,255, 1);
+            /*似乎影响到了boxshadow的颜色，在boxshadow那里改一下*/
+        }
+
+        .main .secondfont {
+            color: rgba(255, 0, 0, 0);/*一开始是透明的*/
+            text-align: center;
+            font-size: 30px;
+            bottom: 0;
+            width: 100%;
+            position: absolute;
+            writing-mode: horizontal-tb;
+            
+        }
+        
+        .main .picture:hover {
+            animation: fadein 0.7s;
+            animation-fill-mode: forwards;
+            width: 55%;
+            cursor: pointer;
+
+        }
+
+        .main .picture:hover .secondfont {
+            /*hover要用animation触发动画，不能用animation-name*/
+            /*width: 55%;不继承div的hover，否则鼠标放文字上宽度会缩小*/
+            animation: fadeout 0.7s;
+            animation-fill-mode: forwards;
+            animation-delay:0.7s;/*设置延迟使得文字移动不会被看见*/
+        }
+
+        @keyframes fadeout {
+            0% {
+                color: rgba(255, 0, 0, 0);
+                background-color:rgba(255, 0, 0, 0);/*文字更加清晰，先设置透明不然直接就漏出来了*/
+            }
+
+            100% {
+                color: rgb(255, 255, 255);
+                background-color:rgba(176,196,222, 0.5);
+            }
+        }
+
+        @keyframes fadein {
+            0% {
+                color: rgba(255, 255 ,255, 1);
+            }
+
+            100% {
+                color: rgba(255, 0, 0, 0);
+            }
+        }
+
